@@ -11,30 +11,30 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="bg">
-      <img src="images/delivery.jpg" alt="">
+      <img src="images/delivery.jpg" alt="" />
     </div>
     <h2>Logistic Company</h2>
     <div class="container">
       <form action="" method="get">
         <div class="input-control">
           <label for="cus-name">Customer Name</label>
-          <input type="text" id="cus-name" />
+          <input type="text" id="cus-name" required />
         </div>
         <div class="input-control">
           <label for="cus-name">Customer ID</label>
-          <input type="number" id="cus-name" />
+          <input type="number" id="cus-name" min="1" max="20" required />
         </div>
         <div class="input-control">
           <label for="pick-loc">Pick Off Location</label>
-          <input type="text" id="pick-loc" />
+          <input type="text" id="pick-loc" required />
         </div>
         <div class="input-control">
           <label for="drop-loc">Drop Off Location</label>
-          <input type="text" id="drop-loc" />
+          <input type="text" id="drop-loc" required />
         </div>
         <button type="submit">Submit</button>
       </form>
