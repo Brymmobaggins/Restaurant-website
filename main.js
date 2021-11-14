@@ -2,14 +2,14 @@ const form = document.getElementById("form")
 
 form.addEventListener('submit', function (e) {
     e.preventDefault(); // to stop form from submitting
-    showDate()
+   
     let customerData = {
         ID: document.getElementById('cus-id').value,
         Name: document.getElementById('cus-name').value,
         pick: document.getElementById('pick-loc').value,
         drop: document.getElementById('drop-loc').value
     }
-    // saving in local Storage
+    // saving  Customer data local Storage
     localStorage.setItem('customerData', JSON.stringify(customerData))
     console.log(localStorage.getItem(customerData))
 
