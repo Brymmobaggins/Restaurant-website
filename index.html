@@ -11,58 +11,33 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="background-image">
+    <div class="bg">
       <img src="images/delivery.jpg" alt="">
     </div>
-    <h1>Logistic Company</h1>
+    <h2>Logistic Company</h2>
     <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="deliver">
-            <div class="form-control">
-              <label for="cus-name">Customer Name</label>
-              <input type="text" id="cus-name" />
-            </div>
-            <div class="form-control">
-              <label for="cus-id">Customer ID</label>
-              <input type="number" id="cus-id" />
-            </div>
-            <div class="form-control">
-              <label for="drop-loc">Drop Off Location</label>
-              <input type="number" id="drop-loc" />
-            </div>
-            <div class="form-control">
-              <label for="pick-loc">Pick Up location</label>
-              <input type="text" id="pick-loc" />
-            </div>
-          </div>
+      <form action="" method="get">
+        <div class="input-control">
+          <label for="cus-name">Customer Name</label>
+          <input type="text" id="cus-name" />
         </div>
-        <div class="col">
-          <div class="planner">
-            <div class="date-control">
-              <label for="slot-1">Slot 1</label>
-              <input type="date" id="slot-1" />
-            </div>
-            <div class="date-control">
-              <label for="slot-2">Slot 2</label>
-              <input type="date" id="slot-2" />
-            </div>
-            <div class="date-control">
-              <label for="slot-3">Slot 3</label>
-              <input type="date" id="slot-3" />
-            </div>
-            <div class="date-control">
-              <label for="slot-4">Slot 4</label>
-              <input type="date" id="slot-4" />
-            </div>
-          </div>
+        <div class="input-control">
+          <label for="cus-name">Customer ID</label>
+          <input type="number" id="cus-name" />
         </div>
-      </div>
-      <button>Submit</button>
+        <div class="input-control">
+          <label for="pick-loc">Pick Off Location</label>
+          <input type="text" id="pick-loc" />
+        </div>
+        <div class="input-control">
+          <label for="drop-loc">Drop Off Location</label>
+          <input type="text" id="drop-loc" />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
     </div>
-    <script src="main.js"></script>
   </body>
 </html>

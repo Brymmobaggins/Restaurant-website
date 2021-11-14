@@ -2,7 +2,6 @@ const form = document.getElementById("form")
 
 form.addEventListener('submit', function (e) {
     e.preventDefault(); // to stop form from submitting
-   
     let customerData = {
         ID: document.getElementById('cus-id').value,
         Name: document.getElementById('cus-name').value,
@@ -13,7 +12,7 @@ form.addEventListener('submit', function (e) {
     localStorage.setItem('customerData', JSON.stringify(customerData))
     console.log(localStorage.getItem(customerData))
 
-    // saving in an array
+    // saving customer info insie an array
     // customers.push(customerInfo)
     // let json = JSON.stringify(customerInfo);
     // localStorage.setItem(username,json)
