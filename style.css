@@ -43,7 +43,7 @@ label {
   display: block;
   text-align: start;
   color: #ebf8f8;
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 1px;
 }
 input {
@@ -104,6 +104,6 @@ button:hover {
     padding: 10px 25px;
   }
   .input-control {
-    margin: 10px;
+    margin: 13px;
   }
 }

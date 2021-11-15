@@ -7,10 +7,10 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -19,14 +19,14 @@
     </div>
     <h2>Logistic Company</h2>
     <div class="container">
-      <form action="" method="get">
+      <form id="form">
         <div class="input-control">
           <label for="cus-name">Customer Name</label>
           <input type="text" id="cus-name" required />
         </div>
         <div class="input-control">
           <label for="cus-name">Customer ID</label>
-          <input type="number" id="cus-name" min="1" max="20" required />
+          <input type="number" id="cus-id" min="1" max="20" required />
         </div>
         <div class="input-control">
           <label for="pick-loc">Pick Off Location</label>
@@ -39,5 +39,6 @@
         <button type="submit">Submit</button>
       </form>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
