@@ -6,7 +6,7 @@ form.addEventListener('submit', function (e) {
         Name: document.getElementById('cus-name').value,
         ID: document.getElementById('cus-id').value,
         Pick: document.getElementById('pick-loc').value,
-        Drop: document.getElementById('drop-loc').value
+        Drop: document.getElementById('drop-loc').value,
     }
     document.forms[0].reset() // to clear the form for next entries
 
