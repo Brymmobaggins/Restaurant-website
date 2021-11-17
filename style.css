@@ -6,7 +6,7 @@
 html,
 body {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
 }
 .bg {
@@ -40,10 +40,10 @@ h2 {
   margin-top: 20px;
 }
 label {
-  display: block;
-  text-align: start;
+  display: block; 
+  text-align: left;
   color: #ebf8f8;
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 1px;
 }
 input {
@@ -52,18 +52,11 @@ input {
   border-radius: 5px;
   border: 1px solid black;
   background-color: transparent;
-  letter-spacing: 1px;
-  font-size: 18px;
-  /* outline: 0; */
 }
 input:focus {
-  outline: 1.3px solid #ad9386;
+  outline: 1.3px solid #61e7ba;
   background: #ddeaf3;
   border: 0;
-}
-::placeholder {
-  font-size: 13px;
-  color: #2c3844;
 }
 button {
   margin-top: 30px;
@@ -75,10 +68,11 @@ button {
   font-size: 16px;
   letter-spacing: 2px;
   border: 0;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 button:hover {
-  background-color: #55f8c2;
+  background: #94dbc3;
+  border: 3px solid #61e7ba;
 }
 @media screen and (min-width: 600px) {
   .container {
@@ -95,10 +89,13 @@ button:hover {
     width: 100%;
     height: 100%;
   }
+  input{
+    width: 100%;
+  }
   label,
   button,
   input {
-    font-size: 15px;
+    font-size: 14px;
   }
   button {
     padding: 10px 25px;
