@@ -1,23 +1,18 @@
-const form = document.getElementById("form")
+let menuBtn = document.getElementById("menu-btn")
+let menu = document.getElementById("menu")
+let closeMenu = document.querySelector("span")
+let contactBtn = document.getElementById("contact-btn")
+let contact = document.getElementById("contact")
+// let 
 
-form.addEventListener('submit', function (e) {
-    e.preventDefault(); // to stop form from submitting
-    let customerData = {
-        Name: document.getElementById('cus-name').value,
-        ID: document.getElementById('cus-id').value,
-        Pick: document.getElementById('pick-loc').value,
-        Drop: document.getElementById('drop-loc').value,
-    }
-    document.forms[0].reset() // to clear the form for next entries
-
-    // Saving Customer data in local Storage
-    localStorage.setItem('customerDetails', JSON.stringify(customerData))
-    console.log(localStorage.getItem(customerData))
+menuBtn.addEventListener("click", function () {
+    menu.style.display = "block"
 
 })
-// function showDate(slot1, slot2, slot3, slot4) {
-//     let slot1 = new date
-//     slot1.setDate(slot1.getDate() - 13)
-//     document.getElementById = slot1
-//     // console.console.log((slot1));
-// }
+
+closeMenu.addEventListener("click", function () {
+    menu.style.display = "none"
+})
+contactBtn.addEventListener("click", function(){
+
+})
