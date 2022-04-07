@@ -16,6 +16,7 @@ closeMenu.addEventListener("click", function () {
 })
 contactBtn.addEventListener("click", function () {
     contact.style.display = "block"
+    menu.style.display = "none"
 
 })
 closeContact.addEventListener("click", function () {
