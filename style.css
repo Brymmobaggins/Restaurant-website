@@ -62,13 +62,14 @@ button:hover {
   border: 0;
   display: none;
 }
+span:hover {
+  color: white;
+  cursor: pointer;
+}
 .heading {
   background-color: var(--bg-color);
   color: black;
   padding: 10px;
-}
-span:hover {
-  cursor: pointer;
 }
 .starter {
   display: flex;
@@ -95,7 +96,7 @@ h4 {
   display: flex;
   padding: 10px;
 }
-span{
+span {
   margin-left: auto;
 }
 input {
