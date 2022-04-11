@@ -7,7 +7,7 @@ let contactBtn = document.getElementById("contact-btn")
 let contact = document.getElementById("contact")
 let closeContact = document.getElementsByTagName("span")[1]
 
-// when menu button is clicked
+// whenever menu button is clicked
 menuBtn.addEventListener("click", function () {
     menu.style.display = "block"
     contact.style.display = "none"
