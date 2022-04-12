@@ -10,7 +10,7 @@
 
 ## links
 
-- [live Demo]()
+- [live Demo](https://brymmobaggins.github.io/Restaurant-website/)
 
 ## Resources
 
