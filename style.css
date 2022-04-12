@@ -119,3 +119,7 @@ input[type="button"] {
   font-family: "Grape Nuts", cursive;
   font-size: 18px;
 }
+
+ /* When the screen size is below 600px */
+/* @media all and (max-width: 600px) {
+} */
