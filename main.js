@@ -1,5 +1,4 @@
 
-
 let menuBtn = document.getElementById("menu-btn")
 let menu = document.getElementById("menu")
 let closeMenu = document.getElementsByTagName("span")[0]
@@ -29,3 +28,4 @@ contactBtn.addEventListener("click", function () {
 closeContact.addEventListener("click", function () {
     contact.style.display = "none"
 })
+
