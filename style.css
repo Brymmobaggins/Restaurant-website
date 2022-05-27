@@ -11,33 +11,16 @@
 html,
 body {
   font-family: "Grape Nuts", cursive;
-  /* height: 100%; */
-}
-.bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
   height: 100%;
-  z-index: -1;
 }
-.bg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /* object-position: center; */
-  background-position: cover;
-}
-
-/* .bgImg {
+.bg{
   background-image: url(/img/Welcome-bg.jpg);
-  min-height: 100%;
-  background-position: center;
+  min-height: 680px;
+   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%; */
-/* position: absolute; */
-/* z-index: -1; */
-
+  background-size: cover;
+  position: relative
+}
 button {
   font-family: "Grape Nuts", cursive;
   margin: 25px 10px 0px 45px;
@@ -54,9 +37,9 @@ button:hover {
   opacity: 1;
 }
 /* styling the menu */
-#menu {
+#menu, #contact {
   font-size: 25px;
-  width: 50%;
+  max-width: 400px;
   margin: 0 auto;
   border: 0;
   display: none;
@@ -81,15 +64,6 @@ h4 {
 }
 
 /* styling the contact */
-#contact {
-  font-size: 25px;
-  width: 50%;
-  height: 50%;
-  margin: 0 auto;
-  border: 0;
-  display: none;
-}
-
 .contact-heading {
   background-color: var(--bg-color);
   display: flex;
@@ -119,7 +93,3 @@ input[type="button"] {
   font-family: "Grape Nuts", cursive;
   font-size: 18px;
 }
-
- /* When the screen size is below 600px */
-/* @media all and (max-width: 600px) {
-} */
